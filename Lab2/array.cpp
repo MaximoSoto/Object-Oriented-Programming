@@ -1,5 +1,6 @@
 
 //array.cpp
+#include <iostream>
 #include <iomanip>
 #include <vector>
 using namespace std;
@@ -37,6 +38,11 @@ int main(){
     }
 
     printf("Before------------------\n");
+    printMemArr(arr, SIZE);
+
+    //change the value
+    incArrBy10(arr, SIZE);
+    cout << "After-------------------\n";
     printMemArr(arr, SIZE);
 
     return 0;
