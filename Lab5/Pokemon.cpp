@@ -38,14 +38,14 @@ Pokemon::Pokemon(string name, int hp, int att, int def, vector<string> type){
  * @brief says whatever this pokemon normally says
  * 
  */
-void speak(){
+void Pokemon::speak(){
     cout << "...\n";
 }
 void Pokemon::printStats(){
-    cout << "name: " << name << endl;
+    cout << "Name: " << name << endl;
     cout << "HP: " << hp << endl;
     cout << "Attack: " << attack << endl;
-    cout << "defense: " << defense << endl;
+    cout << "Defense: " << defense << endl;
     cout << "Type: ";
     for(int i = 0; i <type.size(); i++){
         cout << type[i] << "    ";

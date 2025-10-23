@@ -12,8 +12,8 @@ class Pokemon{
         Pokemon();
         Pokemon(string name, int hp, int attack, int defense, vector<string> type);
         // ----------- Mutators ------------
-        void speak();
-        void printStats();
+        virtual void speak();
+        virtual void printStats();
         // ----------- Accessors ------------
     
     protected:

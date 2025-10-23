@@ -11,7 +11,7 @@ class Charmander : public Pokemon{
     public:
         // ----------- Constructors ------------
         Charmander();
-        Charmander(string name, int hp, int attack, int defense, vector<string> type);
+        Charmander(string name, int hp, int att, int def, vector<string> t, vector<string> s);
         // ----------- Mutators ------------
         void speak();
         void printStats();
