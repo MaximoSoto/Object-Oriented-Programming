@@ -8,3 +8,4 @@ from the ppervious lab.
 
 ## Terminal Output
 
+![alt text](https://github.com/MaximoSoto/Object-Oriented-Programming/blob/main/Lab6/images/Terminal%20Output.jpg?raw=true)
