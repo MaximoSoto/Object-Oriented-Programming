@@ -1,4 +1,4 @@
-# Lab6
+# Lab 6
 
 ## Objective
 The goal of this lab was to create a functioning game loop incorporating the RPG class to have a battle loop that would 
