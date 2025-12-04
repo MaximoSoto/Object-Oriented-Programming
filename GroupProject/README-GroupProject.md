@@ -1,4 +1,2 @@
-# Group Project
-Zaki wrote all the code
-
-I did nothing
+# Group Project Group 6
+[text](output_co.csv)
