@@ -1,4 +1,7 @@
 # Group Project Group 6
+
+### Deliverables
+These are the seven .csv output files, with timestamp, device, and desired data column in each one.  
 [output_co.csv](co_output.csv)  
 [output_humidity.csv](humidity_output.csv)  
 [output_light.csv](light_output.csv)  
