@@ -60,24 +60,36 @@ void Game::battleRound(){
         battleRound();
         return;
     }
+
     RPG *player1, *player2;
     player1 = players[PlayerIndex1];
     player2 = players[PlayerIndex2];
+
     while(player1->isAlive() && player2->isAlive()){
         player1->attack(player2);
-
-        if(!player2->isAlive()){ //Implemented so you don't end up with two players dying same round
-            break;
-        }
-
         player2->attack(player1);
     }
+    
     if(player1->isAlive()){
         endRound(player1, player2, PlayerIndex2);
     }
-    else{
+    else if(player2->isAlive()){
         endRound(player2, player1, PlayerIndex1);
     }
+        else{
+            random_device rd;
+            mt19937 gen(rd()); //seed with random
+            uniform_int_distribution<int> dis(0, 1);
+
+            int random_num = dis(gen);
+
+            if(random_num == 0){
+                endRound(player1, player2, PlayerIndex2);
+            }
+            else{
+                endRound(player2, player1, PlayerIndex1);
+            }
+        }
 }
 
 void Game::gameLoop(){

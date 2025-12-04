@@ -151,7 +151,7 @@ void RPG::attack(RPG* opponent){
     }
 
     if(hit){
-        updateHitsTaken();
+        opponent->updateHitsTaken();
     }
 }
 
