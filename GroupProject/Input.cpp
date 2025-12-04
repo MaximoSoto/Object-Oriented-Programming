@@ -28,7 +28,7 @@ bool loadDataFromFile(const string& filename, TelemetryRecord& Record){ //It's a
         getline(ss, lpgStr, ',');
         getline(ss, motionStr, ',');
         getline(ss, smokeStr, ',');
-        getline(ss, tempStr, ',');
+        getline(ss, tempStr, '\n');
 
         double ts = stod(tsStr); // stod converts the strings into the desired data type (with stod its string to double)
         string device = deviceStr; // This does not need to be converted as the desired output is a string, which it already is
