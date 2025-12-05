@@ -14,12 +14,12 @@ int main()
 
     H1.convertTemp(T1);
 
-    H1.writeCoToCsv("output_co.csv", T1);
-    H1.writeHumidityToCsv("output_humidity.csv", T1);
-    H1.writeLightToCsv("output_light.csv", T1);
-    H1.writeLpgToCsv("output_lpg.csv", T1);
-    H1.writeMotionToCsv("output_motion.csv", T1);
-    H1.writeSmokeToCsv("output_smoke.csv", T1);
-    H1.writeTempToCsv("output_temp.csv", T1);
+    H1.writeCoToCsv("Deliverables/output_co.csv", T1);
+    H1.writeHumidityToCsv("Deliverables/output_humidity.csv", T1);
+    H1.writeLightToCsv("Deliverables/output_light.csv", T1);
+    H1.writeLpgToCsv("Deliverables/output_lpg.csv", T1);
+    H1.writeMotionToCsv("Deliverables/output_motion.csv", T1);
+    H1.writeSmokeToCsv("Deliverables/output_smoke.csv", T1);
+    H1.writeTempToCsv("Deliverables/output_temp.csv", T1);
     
 }
