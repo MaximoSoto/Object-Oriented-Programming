@@ -8,6 +8,6 @@ These are the seven .csv output files, with timestamp, device, and desired data 
 [output_humidity.csv](Deliverables/output_humidity.csv)  
 [output_light.csv](Deliverables/output_light.csv)  
 [output_lpg.csv](Deliverables/output_lpg.csv)  
-[output_motion.csv](Deliverables/output_motion.csv)
+[output_motion.csv](Deliverables/output_motion.csv)  
 [output_smoke.csv](Deliverables/output_smoke.csv)  
 [output_temp.csv](Deliverables/output_temp.csv)
